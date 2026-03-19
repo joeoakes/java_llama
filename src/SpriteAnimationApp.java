@@ -16,7 +16,7 @@ public class SpriteAnimationApp extends JPanel {
 
     public SpriteAnimationApp() {
         try {
-            spriteSheet = ImageIO.read(new File("llama_spritesheet.png"));
+            spriteSheet = ImageIO.read(new File("src/llama.png"));
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(1);
